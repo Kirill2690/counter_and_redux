@@ -1,0 +1,42 @@
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.inputBlock {
+    text-align: center;
+    color: darkturquoise;
+    padding: 15px;
+    font: 25px serif;
+    margin: 15px auto;
+
+}
+
+.default {
+    background-color: whitesmoke;
+    color: darkslategrey;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.errorInput {
+    background-color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 340px;
+    height: 60px;
+    border: 2px solid darkturquoise;
+    border-radius: 20px;
+
+}

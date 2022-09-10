@@ -1,0 +1,30 @@
+.redText {
+
+    background-color: aqua;
+    border-radius: 20px;
+    color: red;
+    padding: 5px;
+    font: 90px serif;
+}
+
+
+.setText {
+    color: indigo;
+    background-color: aqua;
+    border-radius: 20px;
+    margin: auto;
+    font: 50px serif;
+}
+
+.count {
+
+    color: black;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.errorCount {
+    color: red;
+    background-color: aqua;
+
+}

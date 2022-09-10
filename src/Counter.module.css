@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    width: 1024px;
+
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    border: 3px solid darkturquoise;
+    border-radius: 20px;
+    padding: 10px;
+
+
+}
+
+
+.display {
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 350px
+
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 340px;
+    height: 60px;
+    border: 2px solid darkturquoise;
+    border-radius: 20px;
+
+
+}
+
+.errorInput {
+    color: red;
+}

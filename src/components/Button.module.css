@@ -1,0 +1,24 @@
+
+.button {
+    margin: 10px;
+    width: 80px;
+    height: 35px;
+    border-radius: 12px;
+    background-color: darkturquoise;
+}
+
+.buttonLarge {
+    width: 120px;
+}
+
+.button:hover {
+    box-shadow: 0 0 15px darkturquoise;
+    cursor: pointer;
+}
+
+.button:disabled {
+    box-shadow: none;
+    background-color: red;
+    color: gray;
+
+}
