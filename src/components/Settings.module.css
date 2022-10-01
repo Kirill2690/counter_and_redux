@@ -19,14 +19,14 @@
     background-color: whitesmoke;
     color: darkslategrey;
     text-align: center;
-   /* font-size: 20px;*/
+    font-size: 20px;
     border-radius: 20px;
 
 }
 
 .errorInput {
     background-color: red;
-    /*font-size: 20px;*/
+    font-size: 18px;
     text-align: center;
 
 }
