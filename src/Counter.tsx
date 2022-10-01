@@ -1,6 +1,5 @@
 import React from "react";
 import {useDispatch, useSelector} from "react-redux";
-
 import {Settings} from "./components/Settings";
 import {Display} from "./components/Display";
 import s from './Counter.module.css'
@@ -19,6 +18,7 @@ export const Counter = () => {
     const onClickResHandler = () => {
         dispatch(setCountValueAC(startValue))
 
+
     }
     return (
         <div className={s.wrapper}>
@@ -30,11 +30,9 @@ export const Counter = () => {
                     <Display/>
                 </div>
                 <div className={s.buttonContainer}>
-
-                    <Button title='INC ☝' callback={onClickIncludedHandler}
+                    <Button title={'INC 🚀'} callback={onClickIncludedHandler}
                             disabled={maxValue < 0 || startValue < 0 || startValue === maxValue || startValue > maxValue || maxValue === count}/>
-
-                    <Button title='RES ✖' callback={onClickResHandler} disabled={false}/>
+                    <Button title={'RES ❌'} callback={onClickResHandler} disabled={false}/>
                 </div>
             </div>
         </div>

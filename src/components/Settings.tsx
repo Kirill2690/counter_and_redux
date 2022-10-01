@@ -60,7 +60,7 @@ export const Settings = () => {
             <div className={s.buttonContainer}>
                 <div>
                     <Button
-                        title={"SET ✔"}
+                        title={"SET ✅"}
                         callback={onclickSetHandler}
                         disabled={
                             startValue === maxValue ||

@@ -1,6 +1,7 @@
-import {combineReducers, legacy_createStore} from "redux";
+
 import {counterReducer} from "./counter-reducer";
 import {loadState, saveState} from '../utils/localstorage-utils';
+import {combineReducers, legacy_createStore} from "redux";
 
 
 const rootReducer = combineReducers({

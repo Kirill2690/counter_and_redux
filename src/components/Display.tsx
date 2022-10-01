@@ -16,7 +16,7 @@ export const Display = () => {
                         : `${s.setText}`}>
                     {startValue >= maxValue || maxValue <= 0 || startValue < 0 || maxValue === count
                         ? `Incorrect!`
-                        : `Enter values and press "SET✔"`}
+                        : `Enter values and press "SET✅"`}
                 </div>
                 : <div className={maxValue === count ? s.errorCount : s.count}>{count}</div>}
 

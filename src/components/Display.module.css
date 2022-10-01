@@ -1,9 +1,23 @@
-.redText {
+.counterBoard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 340px;
+    height: 130px;
+    color: aqua;
+    font-size: 100px;
+    border: 2px solid aqua;
+    font-weight: bold;
+    border-radius: 20px;
+}
 
+
+.redText {
     background-color: aqua;
     border-radius: 20px;
     color: red;
-    padding: 5px;
+    width:350px;
     font: 90px serif;
 }
 
@@ -14,17 +28,37 @@
     border-radius: 20px;
     margin: auto;
     font: 50px serif;
+    width: 350px;
 }
 
 .count {
-
+    font: 100px serif;
     color: black;
     background-color: aqua;
     border-radius: 20px;
+    width: 350px;
+
 }
 
 .errorCount {
     color: red;
     background-color: aqua;
+    font: 100px serif;
+    border-radius: 20px;
+    width: 350px;
 
+
+}
+.text {
+    font-size: 22px;
+    color: aqua;
+}
+
+.textError {
+    font-size: 22px;
+    color: red;
+}
+
+.red {
+    color: red;
 }
