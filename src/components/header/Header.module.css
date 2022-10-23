@@ -1,8 +1,7 @@
 
 .container {
-    margin: -70px 400px  auto;
+    margin: 0px 300px  auto;
     width: 60%;
-    height: 20vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,20 +14,13 @@ a {
     border-radius: 10px;
     font-family: 'Gill Sans', sans-serif;
     font-size: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
 }
 
 .link{
     color:salmon;
     font-size: 30px;
     font-family: 'Gill Sans', sans-serif;
-    margin: 10px auto;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
+
 }
 
 
