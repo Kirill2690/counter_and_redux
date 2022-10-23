@@ -1,8 +1,8 @@
 import {ChangeEvent} from "react";
-import s from './Settings.module.css'
+import s from '../settings/Settings.module.css'
 import {useDispatch, useSelector} from "react-redux";
-import {AppStateType} from "../bll/store";
-import {CounterStateType, isSettingAC, setMaxValueAC, setStartValueAC} from "../bll/counter-reducer";
+import {AppStateType} from "../../bll/store";
+import {CounterStateType, isSettingAC, setMaxValueAC, setStartValueAC} from "../../bll/counter-reducer";
 
 
 export const SuperSettings = () => {

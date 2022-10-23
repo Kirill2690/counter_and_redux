@@ -1,9 +1,9 @@
 import {ChangeEvent} from "react";
 import s from './Settings.module.css'
-import {Button} from "./Button";
+import {Button} from "../button/Button";
 import {useDispatch, useSelector} from "react-redux";
-import {AppStateType} from "../bll/store";
-import {CounterStateType, isSettingAC, setCountValueAC, setMaxValueAC, setStartValueAC} from "../bll/counter-reducer";
+import {AppStateType} from "../../bll/store";
+import {CounterStateType, isSettingAC, setCountValueAC, setMaxValueAC, setStartValueAC} from "../../bll/counter-reducer";
 
 export const Settings = () => {
     const {startValue, maxValue} = useSelector<AppStateType, CounterStateType>(state => state.counter)

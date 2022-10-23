@@ -1,10 +1,10 @@
 import React from "react";
 import {useDispatch, useSelector} from "react-redux";
 import s from './SuperCounter.module.css'
-import {AppStateType} from "../bll/store";
-import {CounterStateType, isSettingAC, setCountValueAC} from "../bll/counter-reducer";
+import {AppStateType} from "../../bll/store";
+import {CounterStateType, isSettingAC, setCountValueAC} from "../../bll/counter-reducer";
 import {SuperSettings} from "./SuperSettings";
-import {SuperButton} from "./SuperButton";
+import {SuperButton} from "../superButton/SuperButton";
 import {SuperDisplay} from "./SuperDisplay";
 
 

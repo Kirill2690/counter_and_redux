@@ -1,6 +1,6 @@
 import {useSelector} from "react-redux";
-import {AppStateType} from "../bll/store";
-import {CounterStateType} from "../bll/counter-reducer";
+import {AppStateType} from "../../bll/store";
+import {CounterStateType} from "../../bll/counter-reducer";
 
 import s from './Display.module.css'
 

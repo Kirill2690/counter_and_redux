@@ -1,15 +1,19 @@
 import React from 'react';
-
 import './App.css';
-import {Counter} from "./Counter";
+import {Main} from './Main';
+import {HashRouter} from 'react-router-dom';
+import {Provider} from 'react-redux';
+import {store} from "./bll/store";
 
-function App() {
-  return (
+
+const App = () => (
     <div className="App">
-        <Counter/>
-          {/*<SuperCounter/>*/}
+        <Provider store={store}>
+            <HashRouter>
+                <Main/>
+            </HashRouter>
+        </Provider>
     </div>
-  );
-}
+);
 
 export default App;
