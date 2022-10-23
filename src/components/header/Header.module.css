@@ -10,11 +10,11 @@
 }
 
 a {
-    padding: 2px 20px;
+    padding: 1px 20px;
     text-decoration: none;
     border-radius: 10px;
-    font-weight: bold;
     font-family: 'Gill Sans', sans-serif;
+    font-size: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,8 +23,12 @@ a {
 
 .link{
     color:salmon;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Gill Sans', sans-serif;
+    margin: 10px auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 
